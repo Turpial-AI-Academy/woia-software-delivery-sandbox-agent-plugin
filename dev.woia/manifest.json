@@ -1,0 +1,27 @@
+{
+  "schema": "dev.woia.provider-manifest/v1",
+  "version": "0.5.0",
+  "authoring_profile": "thin",
+  "department": "software",
+  "capability": "delivery-sandbox",
+  "skill": "delivery-sandbox",
+  "kind": "auxiliary",
+  "source_lineage": {
+    "repository": "Turpial-AI-Academy/delivery-sandbox-agent-plugin",
+    "version": "1.0.1",
+    "commit": "cba3dfd679282bca843be8c53e6b77560d2d1ac0"
+  },
+  "migrated_portable_paths": [
+    "skills/delivery-sandbox/SKILL.md",
+    "skills/delivery-sandbox/assets/README.md",
+    "skills/delivery-sandbox/assets/sandbox-evidence.template.json",
+    "skills/delivery-sandbox/assets/sandbox-plan.template.md",
+    "skills/delivery-sandbox/assets/sandbox-report.template.md",
+    "skills/delivery-sandbox/references/CANDIDATE_EVIDENCE.md",
+    "skills/delivery-sandbox/references/DATA_AND_SECRETS.md",
+    "skills/delivery-sandbox/references/README.md",
+    "skills/delivery-sandbox/references/SANDBOX_STANDARD.md",
+    "skills/delivery-sandbox/references/TOOL_ADAPTERS.md",
+    "skills/delivery-sandbox/references/TROUBLESHOOTING.md"
+  ]
+}

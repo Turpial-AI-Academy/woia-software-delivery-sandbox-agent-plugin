@@ -1,0 +1,29 @@
+{
+  "schema": "com.turpial.delivery-sandbox-evidence/v1",
+  "sandbox_id": "example-sandbox-id",
+  "started_at": null,
+  "finished_at": null,
+  "candidate": {
+    "source_type": "git",
+    "commit_sha": null,
+    "artifact_digest": null
+  },
+  "adapters": [],
+  "parity_levels": [],
+  "owned_resources": [],
+  "data": {
+    "source": "synthetic",
+    "production_derived": false,
+    "sanitized": null
+  },
+  "checks": [],
+  "production_touched": false,
+  "cleanup": {
+    "resources_owned_only": true,
+    "completed": false,
+    "preserved_by_request": false
+  },
+  "first_causal_error": null,
+  "human_decision": null,
+  "outcome": "SANDBOX_BLOCKED"
+}

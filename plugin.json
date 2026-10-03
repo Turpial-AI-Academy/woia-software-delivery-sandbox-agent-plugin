@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "woia-software-delivery-sandbox",
+  "version": "0.5.0",
+  "description": "Create, validate, troubleshoot, and tear down isolated delivery sandboxes for candidate testing.",
+  "author": {
+    "name": "Turpial AI Academy",
+    "url": "https://github.com/Turpial-AI-Academy"
+  },
+  "homepage": "https://github.com/Turpial-AI-Academy/woia-software-delivery-sandbox-agent-plugin",
+  "repository": "https://github.com/Turpial-AI-Academy/woia-software-delivery-sandbox-agent-plugin",
+  "license": "MIT",
+  "keywords": [
+    "agent-plugin",
+    "woia",
+    "software",
+    "auxiliary",
+    "delivery-sandbox"
+  ]
+}
