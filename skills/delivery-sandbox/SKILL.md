@@ -5,7 +5,7 @@ license: MIT
 compatibility: Works with repositories whose required candidate environment can be provisioned locally or on controlled self-hosted infrastructure; available adapters depend on the repository and host.
 metadata:
   author: Turpial AI Academy
-  version: "0.5.0"
+  version: "0.5.1"
 ---
 
 # delivery-sandbox
