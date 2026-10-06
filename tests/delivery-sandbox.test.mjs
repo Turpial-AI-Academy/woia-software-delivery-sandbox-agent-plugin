@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { access, readFile } from "node:fs/promises";
+import { readFile } from "node:fs/promises";
 import path from "node:path";
 import test from "node:test";
 
@@ -49,6 +49,13 @@ test("act is preflight evidence rather than hosted-runner parity", async () => {
   assert.match(adapters, /act result = PIPELINE_PREFLIGHT/);
   assert.match(adapters, /does not prove hosted-runner parity/i);
   assert.match(adapters, /Runner images can be intentionally incomplete/i);
+});
+
+test("OpenShip and Coolify remain optional external adapters", async () => {
+  const adapters = await readFile(path.join(skillRoot, "references", "TOOL_ADAPTERS.md"), "utf8");
+  assert.match(adapters, /OpenShip is an optional adapter/i);
+  assert.match(adapters, /do not.*make OpenShip a runtime dependency/is);
+  assert.match(adapters, /Coolify is an optional adapter/i);
 });
 
 test("machine-readable evidence encodes production and cleanup safety", async () => {
