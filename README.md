@@ -4,7 +4,7 @@ WOIA Software auxiliary provider for `delivery-sandbox`. Portable capability con
 
 Activation remains evidence-triggered; plugin presence alone never activates it.
 
-- Plugin version: `0.5.6`
+- Plugin version: `0.5.7`
 - Primary skill: `$delivery-sandbox`
 - Authoring profile: thin
 
